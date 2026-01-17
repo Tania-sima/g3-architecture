@@ -17,7 +17,7 @@ main, footer{margin-left: 240px; margin-right: 240px;}
 .features{color:orange;}
 .quick button{color:white; background-color: orange;width:  130px; height: 34px; border-radius: 8px;  }
 .second{display: flex; flex-direction: row; width:700px; margin-left: -70px; gap:50px;}
-.enjoy{ font-size: 0.9em; height:550px;  }
+.enjoy{  height:550px; font-size: 14.5px; }
 .dextop,.drug,.awesome, .super{ box-shadow:4px 4px 5px 7px whitesmoke ; padding-left: 9px;}
 .side{ height: 650px; width:550px; }
 .hero{display: flex; gap:25px; width:770px; margin-left: -90px; margin-top: 60px; }
@@ -31,9 +31,7 @@ main, footer{margin-left: 240px; margin-right: 240px;}
 
 .section{margin-left: -80px;}
 .png {border: 2px solid burlywood; border-radius: 6px; height: 140px; width:199px;  }
-.icon{display: flex;gap:50px; margin-left: 40px; margin-top: 60px;}
-.icon h2,img{ margin-left: 20px;}
-.icon p{margin-left: 3px;}
+.icon{display: flex;gap:50px; text-align: center;padding:9px;}
 .sec{ padding:50px;  width:400px; margin-left: 80px; }
 .sec h2{font-weight: bolder; margin-left: 70px;}
 #sect{display: flex; justify-content: space-around; }
@@ -50,15 +48,14 @@ body{margin:0 auto;}
  .fimage img{width:99%; margin: 0 auto; }
 .image{margin-left:-99px;}
 .second{flex-direction: column; }
-
-
-
-
-
-}
-
-
-
+.hero{flex-direction: column;}
+.enjoy{width:550px; }
+.fact{font-size: 1.5em; width:500px;}
+.icon{ display: grid; grid-template-columns: repeat(2,2fr);}
+.sec{ margin-left: 0;}
+#sect {gap:20px;}
+#sect img{width:70px;}
+#copyright{width:550px; padding: 20px;}
 
 
 
