@@ -40,3 +40,69 @@ main, footer{margin-left: 240px; margin-right: 240px;}
 #sect img{width:99px; filter: grayscale();}
 .section{ margin-top: 80px; } 
 #copyright{background-color: rgb(245, 238, 228); padding-left: 260px;  height: 50px;padding-top: 2px; width:600px; margin:50px  0px 50px -125px;}
+/* --------------*/
+@media screen and (max-width:576px) {
+   .head{flex-direction: column;   }
+.home li{display: block; margin-left: -50px;}
+
+body{margin:0 auto;}
+.brand{ margin:0 auto; width:fit-content;padding-left: 9px;}
+ .fimage img{width:99%; margin: 0 auto; }
+.image{margin-left:-99px;}
+.second{flex-direction: column; }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
