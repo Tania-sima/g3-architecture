@@ -48,17 +48,18 @@ body{margin:0 auto;}
  .fimage img{width:99%; margin: 0 auto; }
 .image{margin-left:-99px;}
 .second{flex-direction: column; }
-.hero{flex-direction: column;}
-.enjoy{width:550px; }
-.fact{font-size: 1.5em; width:500px;}
-.icon{ display: grid; grid-template-columns: repeat(2,2fr);}
-.sec{ margin-left: 0;}
-#sect {gap:20px;}
-#sect img{width:70px;}
-#copyright{width:550px; padding: 20px;}
+.hero{flex-direction: column; gap:200px; }
+.enjoy{ width:300px;  }
+.fact{width:400px;  margin-left: -80px;}
+.icon{ display: grid; grid-template-columns: repeat(2,1fr); }
+.sec{   padding:5px; margin-left: -150px;}
+#sect {gap:15px; margin-left: -130px;}
+#sect img{width:50px;}
+#copyright{margin:0 ;width:500px;margin-left: -450px; margin-top: 20px; margin-bottom: 50px;}
 
+.side img{width:fit-content; margin-left: -99px; }
 
-
+.png{width:90px; height:200px;}
 
 
 
